@@ -11,8 +11,7 @@ function Header() {
             <nav className="navbar">
                 <div className="inner-width">
                     <a href="/" className="logo"></a>
-                    <h1>ESNTLS</h1>
-                    <br></br>
+
                     <button className="menu-toggler"></button>
 
                     <div className="navbar-menu">
