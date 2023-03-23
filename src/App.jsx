@@ -1,10 +1,17 @@
-import { useState } from 'react'
+import Home from "./Pages/Home";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 function App() {
 
   return (
-   <h1>Home</h1>
+
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;
