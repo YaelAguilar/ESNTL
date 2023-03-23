@@ -22,23 +22,22 @@
 }
 
 .inner-width {
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 40px;
+
 }
 
 .navbar .inner-width {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .logo {
-    width: 70px;
+    width: 82px;
     height: 75px;
     background-image: url(../img/esntls_logo.png);
-    background-size: contain;
     background-repeat: no-repeat;
+    background-position-y: center;
+    padding-right: 43%;
 }
 
 .menu-toggler span {
